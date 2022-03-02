@@ -1,11 +1,16 @@
 import Navigation from './components/Navigation';
+import Slider from './components/Slider';
+import Images from './components/Images';
 import './App.css';
 
 function App() {
   return (
 
-      <Navigation></Navigation>
-    
+      <div>
+        <Navigation></Navigation>
+      <Slider></Slider>
+      <Images></Images>
+      </div>
   );
 }
 

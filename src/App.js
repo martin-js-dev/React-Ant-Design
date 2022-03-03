@@ -1,6 +1,7 @@
 import Navigation from './components/Navigation';
 import Slider from './components/Slider';
 import Images from './components/Images';
+import Footer from './components/Footer';
 import './App.css';
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
         <Navigation></Navigation>
       <Slider></Slider>
       <Images></Images>
+      <Footer></Footer>
       </div>
   );
 }
